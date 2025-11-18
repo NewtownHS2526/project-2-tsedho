@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom components */
+@layer components {
+.page-container {
+@apply max-w-4xl mx-auto p-6;
+}
+
+.site-header {
+@apply bg-blue-700 text-white p-4;
+}
+
+.site-nav a {
+@apply text-white hover:underline;
+}
+
+.page-title {
+@apply text-3xl font-bold mb-4 text-blue-700;
+}
+
+.page-text {
+@apply text-gray-700 text-lg;
+}
+
+.card {
+@apply bg-white shadow-md p-4 rounded-lg border border-gray-200;
+}
+
+footer {
+@apply text-center p-4 text-gray-600 mt-10;
+}
+}
+
+
